@@ -32,7 +32,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
+article p{
+	text-align: center;
+}
 ol, ul {
 	list-style: none;
 }
@@ -4686,4 +4688,18 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+
+	
+
+	.resume-download{
+		text-align: right;
+		margin-top: 20px;
+		margin-right: 10px;
+	}
+	.resume-download a{
+		background: white;
+		border-radius: 14px;
+		font-weight: 600;
+		padding: 10px 20px;
 	}
